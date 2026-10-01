@@ -1,0 +1,14 @@
+# 数据投毒攻防对抗后端依赖
+# 默认配置仅依赖以下包即可运行（CPU）：
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+
+# 可选：真实 CNN 模型（model.type=cnn 时需要）
+torch>=2.0
+
+# 可选：结果热力图 PNG
+matplotlib>=3.5
+
+# 可选：YAML 配置文件支持（否则使用 .json）
+pyyaml>=6.0

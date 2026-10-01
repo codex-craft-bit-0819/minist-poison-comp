@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "poison_rate": 0.05,
+  "delta": 0.05,
+  "enforce_budget": true,
+  "output_dir": "results",
+  "attacks": ["all"],
+  "defenses": ["all"],
+  "attack_submissions": [],
+  "defense_submissions": [],
+  "model": {
+    "type": "mlp",
+    "hidden_layer_sizes": [256, 128],
+    "mlp_max_iter": 40,
+    "alpha": 0.0001,
+    "cnn_epochs": 8,
+    "batch_size": 128,
+    "lr": 0.001,
+    "conv_channels": [16, 32],
+    "label_smoothing": 0.0,
+    "augmentation": false
+  },
+  "data": {
+    "train_size": 8000,
+    "test_size": 2000,
+    "cache_dir": "data",
+    "normalize": true,
+    "synthetic": false,
+    "seed": 42
+  }
+}
