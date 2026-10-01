@@ -1,0 +1,2 @@
+# 防御方依赖（仅标准库 + numpy 即可；如需 sklearn/torch 请在此声明）
+numpy>=1.24

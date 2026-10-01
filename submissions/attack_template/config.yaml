@@ -1,0 +1,6 @@
+# 攻击方配置示例
+name: user_random_label_flip
+description: 随机标签翻转攻击示例
+# 可在此声明攻击所需超参，由提交方自行解析
+params:
+  seed: 42

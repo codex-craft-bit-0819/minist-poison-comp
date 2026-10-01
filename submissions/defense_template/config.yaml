@@ -1,0 +1,4 @@
+# 防御方配置示例
+name: user_no_defense
+description: 无防御基线示例
+params: {}
